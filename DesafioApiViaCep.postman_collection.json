@@ -165,15 +165,15 @@
   "variable": [
     {
       "key": "localidade",
-      "value": ""
+      "value": "Teixeira de Freitas"
     },
     {
       "key": "cep",
-      "value": ""
+      "value": "45989479"
     },
     {
       "key": "cepInvalido",
-      "value": ""
+      "value": "00000000"
     }
   ]
 }

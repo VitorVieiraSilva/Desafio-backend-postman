@@ -27,5 +27,8 @@ jobs:
     - name: Install Newman Reporter HTML
       run: npm install -g newman-reporter-html
 
+    - name: Create reports directory
+      run: mkdir -p reports
+
     - name: Run Postman Collection
-      run: newman run DesafioApiViaCep.postman_collection.json --reporters html --reporter-html-export reports/newman.html
+      run: newman run DesafioApiViaCep.postman_collection.json --reporters cli,html --reporter-html-export reports/newman.html
