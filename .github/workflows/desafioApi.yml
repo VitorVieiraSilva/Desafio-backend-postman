@@ -1,4 +1,4 @@
-name: CI
+name: desafioApi
 
 on:
   push:
